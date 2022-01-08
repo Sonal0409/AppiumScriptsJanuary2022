@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="apidemostests" >
+    <classes>
+       <class name="com.appium.Day5Scripts.TestAnnotationAppium"/>
+    </classes>
+  </test>
+ 
+  <test name="apidemostest2">
+    <classes>
+      <class name="com.appium.Day5Scripts.BeforeMethodAnnotation"/>
+  </classes>
+  </test>
+</suite>

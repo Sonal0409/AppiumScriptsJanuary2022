@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="apidemostestsEmulator" >
+  <parameter name="deviceName" value="Demo13dec"></parameter>
+  <parameter name="Version" value="7.1.1"></parameter>
+  <parameter name="input" value="sonalEmulator"></parameter>
+  <parameter name="ServerURL" value="http://127.0.0.1:4723/wd/hub"></parameter>
+    <classes>
+       <class name="com.appium.Day5Scripts.ParameterDemo"/>
+    </classes>
+  </test>
+ 
+  <test name="apidemostestRealDevice">
+  <parameter name="deviceName" value="96352732140005T"></parameter>
+  <parameter name="Version" value="11"></parameter>
+   <parameter name="input" value="sonalReal"></parameter>
+    <parameter name="ServerURL" value="http://127.0.0.1:4733/wd/hub"></parameter>
+    <classes>
+      <class name="com.appium.Day5Scripts.ParameterDemo"/>
+  </classes>
+  </test>
+</suite>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-20T10:31:17Z" name="Suite1 (0)" finished-at="2021-12-20T10:32:20Z" duration-ms="62821">
+    <groups>
+    </groups>
+    <test started-at="2021-12-20T10:31:17Z" name="apidemostestsEmulator" finished-at="2021-12-20T10:31:47Z" duration-ms="29857">
+      <class name="com.appium.Day5Scripts.ParameterDemo">
+        <test-method is-config="true" signature="methodBefore(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.Day5Scripts.ParameterDemo@79defdc]" started-at="2021-12-20T10:31:17Z" name="methodBefore" finished-at="2021-12-20T10:31:29Z" duration-ms="11915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo13dec]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7.1.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBefore -->
+        <test-method signature="method3(java.lang.String)[pri:49, instance:com.appium.Day5Scripts.ParameterDemo@79defdc]" started-at="2021-12-20T10:31:29Z" name="method3" finished-at="2021-12-20T10:31:47Z" duration-ms="17938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sonalEmulator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- com.appium.Day5Scripts.ParameterDemo -->
+    </test> <!-- apidemostestsEmulator -->
+    <test started-at="2021-12-20T10:31:47Z" name="apidemostestRealDevice" finished-at="2021-12-20T10:32:20Z" duration-ms="32959">
+      <class name="com.appium.Day5Scripts.ParameterDemo">
+        <test-method is-config="true" signature="methodBefore(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.Day5Scripts.ParameterDemo@9cb8225]" started-at="2021-12-20T10:31:47Z" name="methodBefore" finished-at="2021-12-20T10:32:03Z" duration-ms="15543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96352732140005T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4733/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBefore -->
+        <test-method signature="method3(java.lang.String)[pri:49, instance:com.appium.Day5Scripts.ParameterDemo@9cb8225]" started-at="2021-12-20T10:32:03Z" name="method3" finished-at="2021-12-20T10:32:20Z" duration-ms="17395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sonalReal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- com.appium.Day5Scripts.ParameterDemo -->
+    </test> <!-- apidemostestRealDevice -->
+  </suite> <!-- Suite1 (0) -->
+  <suite started-at="2021-12-20T10:29:41Z" name="Suite1" finished-at="2021-12-20T10:31:17Z" duration-ms="96547">
+    <groups>
+    </groups>
+    <test started-at="2021-12-20T10:29:41Z" name="apidemostests" finished-at="2021-12-20T10:30:31Z" duration-ms="50524">
+      <class name="com.appium.Day5Scripts.TestAnnotationAppium">
+        <test-method signature="testcase1()[pri:49, instance:com.appium.Day5Scripts.TestAnnotationAppium@2f67a4d3]" started-at="2021-12-20T10:29:41Z" name="testcase1" finished-at="2021-12-20T10:30:02Z" duration-ms="21290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:50, instance:com.appium.Day5Scripts.TestAnnotationAppium@2f67a4d3]" started-at="2021-12-20T10:30:02Z" name="testcase2" finished-at="2021-12-20T10:30:31Z" duration-ms="29209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.appium.Day5Scripts.TestAnnotationAppium -->
+    </test> <!-- apidemostests -->
+    <test started-at="2021-12-20T10:30:31Z" name="apidemostest2" finished-at="2021-12-20T10:31:17Z" duration-ms="45928">
+      <class name="com.appium.Day5Scripts.BeforeMethodAnnotation">
+        <test-method is-config="true" signature="methodBefore()[pri:0, instance:com.appium.Day5Scripts.BeforeMethodAnnotation@41488b16]" started-at="2021-12-20T10:30:31Z" name="methodBefore" finished-at="2021-12-20T10:30:44Z" duration-ms="13219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBefore -->
+        <test-method signature="method3()[pri:49, instance:com.appium.Day5Scripts.BeforeMethodAnnotation@41488b16]" started-at="2021-12-20T10:30:44Z" name="method3" finished-at="2021-12-20T10:30:57Z" duration-ms="12665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method is-config="true" signature="methodBefore()[pri:0, instance:com.appium.Day5Scripts.BeforeMethodAnnotation@41488b16]" started-at="2021-12-20T10:30:57Z" name="methodBefore" finished-at="2021-12-20T10:31:10Z" duration-ms="13371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodBefore -->
+        <test-method signature="method4()[pri:50, instance:com.appium.Day5Scripts.BeforeMethodAnnotation@41488b16]" started-at="2021-12-20T10:31:10Z" name="method4" finished-at="2021-12-20T10:31:17Z" duration-ms="6667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- com.appium.Day5Scripts.BeforeMethodAnnotation -->
+    </test> <!-- apidemostest2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

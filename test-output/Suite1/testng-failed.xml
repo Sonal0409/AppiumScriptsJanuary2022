@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="apidemostestRealDevice(failed)">
+    <parameter name="input" value="sonalReal"/>
+    <parameter name="ServerURL" value="http://127.0.0.1:4733/wd/hub"/>
+    <parameter name="Version" value="11"/>
+    <parameter name="deviceName" value="96352732140005T"/>
+    <classes>
+      <class name="com.appium.Day5Scripts.ParameterDemo">
+        <methods>
+          <include name="method3" invocation-numbers="0"/>
+          <include name="methodBefore"/>
+        </methods>
+      </class> <!-- com.appium.Day5Scripts.ParameterDemo -->
+    </classes>
+  </test> <!-- apidemostestRealDevice(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
